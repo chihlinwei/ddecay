@@ -1,0 +1,19 @@
+Package: ddecay
+Type: Package
+Title: Fit an exponential distance decay model to assemblage similarities
+Version: 0.1.2
+Author: Chih-Lin Wei
+Maintainer: Chih-Lin Wei <chihlinwei@gmail.com>
+Description: This package fit exponential distance decay model to assemblage similarities and beta diversity
+License: GPL (>= 2)
+LazyData: TRUE
+Depends:
+    R (>= 3.3.1),
+    vegan,
+    Hmisc,
+    betapart
+Imports:
+    vegan,
+    Hmisc,
+    betapart
+RoxygenNote: 5.0.1
